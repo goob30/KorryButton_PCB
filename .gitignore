@@ -41,3 +41,7 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# KiCad restore/backup directories
+_restore_backup_*/
+_restore_*/
