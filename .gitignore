@@ -45,3 +45,4 @@ fp-info-cache
 # KiCad restore/backup directories
 _restore_backup_*/
 _restore_*/
+korryButton.kicad_prl
