@@ -567,7 +567,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:B2B-XH-A_(LF)(SN)"
+		(symbol "lcsc_imported:B5B-XH-A_(LF)(SN)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -583,7 +583,7 @@
 					)
 				)
 			)
-			(property "Value" "B2B-XH-A (LF)(SN)"
+			(property "Value" "B5B-XH-A (LF)(SN)"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -593,7 +593,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C158012_CONN-TH_B2B-XH-A-LF-SN"
+			(property "Footprint" "lcsc_footprints:C157991_CONN-TH_B5B-XH-A-LF-SN"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -604,7 +604,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B2B-XH-A-LF-SN_C158012.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B5B-XH-A-LF-SN_C157991.pdf"
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -615,7 +615,7 @@
 					)
 				)
 			)
-			(property "Description" "B2B-XH-A (LF)(SN)"
+			(property "Description" "B5B-XH-A (LF)(SN)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -626,7 +626,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C158012"
+			(property "LCSC" "C157991"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -648,10 +648,10 @@
 					)
 				)
 			)
-			(symbol "B2B-XH-A_(LF)(SN)_1_1"
+			(symbol "B5B-XH-A_(LF)(SN)_1_1"
 				(rectangle
-					(start -3.81 3.81)
-					(end 6.35 -3.81)
+					(start -3.81 7.62)
+					(end 6.35 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -661,7 +661,7 @@
 					)
 				)
 				(circle
-					(center -2.54 2.54)
+					(center -2.54 6.35)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -672,7 +672,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 1.27 0)
+					(at -6.35 5.08 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -690,7 +690,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 -1.27 0)
+					(at -6.35 2.54 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -707,141 +707,9 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc_imported:B3B-XH-A(LF)(SN)"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "B3B-XH-A(LF)(SN)"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C144394_CONN-TH_3P-P2_50_A2501WV2-3P"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B3B-XH-A-LF-SN_C144394.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "B3B-XH-A(LF)(SN)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C144394"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "B3B-XH-A(LF)(SN)_1_1"
-				(rectangle
-					(start -5.08 2.54)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(pin unspecified line
-					(at -2.54 7.62 270)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 7.62 270)
-					(length 5.08)
+					(at -6.35 0 0)
+					(length 2.54)
 					(name "3"
 						(effects
 							(font
@@ -850,6 +718,42 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -5.08 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1 1)
@@ -2457,16 +2361,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DIN\n"
-		(exclude_from_sim no)
-		(at 55.372 60.198 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4b83ec43-457f-4d6d-9bec-9616f142b775")
-	)
 	(text "lowk consider splitting the connector into a separate power thing and a signal thing"
 		(exclude_from_sim no)
 		(at 84.328 40.894 0)
@@ -2489,7 +2383,7 @@
 	)
 	(text "DOUT\n"
 		(exclude_from_sim no)
-		(at 92.456 61.214 0)
+		(at 70.866 43.688 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2516,6 +2410,12 @@
 		(uuid "6bb5db77-0f67-4b7c-9b37-03b99fc666a1")
 	)
 	(junction
+		(at 46.99 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73f64dd3-9508-4540-b290-0a079224aa67")
+	)
+	(junction
 		(at 59.69 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2526,6 +2426,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2d26c21-ae00-4288-a770-2921a800da91")
+	)
+	(junction
+		(at 73.66 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff857736-cf26-46b8-b623-ef652a66d746")
 	)
 	(wire
 		(pts
@@ -2556,6 +2462,16 @@
 			(type default)
 		)
 		(uuid "1deec01e-0cc1-455b-84c6-24bab384c4dd")
+	)
+	(wire
+		(pts
+			(xy 73.66 44.45) (xy 73.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb1663f-8b6a-4b39-a9d4-be6e4a09273c")
 	)
 	(wire
 		(pts
@@ -2606,6 +2522,16 @@
 			(type default)
 		)
 		(uuid "3219cdc7-5d6d-4b4a-a000-e4fa30ca8994")
+	)
+	(wire
+		(pts
+			(xy 57.15 49.53) (xy 68.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3638fb02-15dc-4ce7-8689-0f9fffe53c2b")
 	)
 	(wire
 		(pts
@@ -2699,6 +2625,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 46.99) (xy 71.12 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51190485-f645-4e8a-813e-ed09b8c731ab")
+	)
+	(wire
+		(pts
 			(xy 124.46 144.78) (xy 101.6 144.78)
 		)
 		(stroke
@@ -2716,6 +2652,16 @@
 			(type default)
 		)
 		(uuid "61bf618c-98d8-4896-8046-b031f412f958")
+	)
+	(wire
+		(pts
+			(xy 57.15 49.53) (xy 57.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c2cec9-f2c4-4dea-a0fe-02592848e6b2")
 	)
 	(wire
 		(pts
@@ -2739,16 +2685,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 67.31) (xy 71.12 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e8d0308-9e64-4102-a970-3ba4513282c3")
-	)
-	(wire
-		(pts
 			(xy 46.99 146.05) (xy 24.13 146.05)
 		)
 		(stroke
@@ -2759,7 +2695,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 53.34) (xy 135.89 139.7)
+			(xy 135.89 44.45) (xy 135.89 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2786,16 +2722,6 @@
 			(type default)
 		)
 		(uuid "74fbf052-440c-49cb-8133-1f39bd986b9f")
-	)
-	(wire
-		(pts
-			(xy 57.15 52.07) (xy 57.15 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "790ac624-4862-46e0-be8f-68d91ed2dee6")
 	)
 	(wire
 		(pts
@@ -2839,16 +2765,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 67.31) (xy 57.15 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97be84e7-8522-4927-b824-272003925fed")
-	)
-	(wire
-		(pts
 			(xy 99.06 153.67) (xy 118.11 153.67)
 		)
 		(stroke
@@ -2859,6 +2775,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 46.99) (xy 71.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca689fd-9183-41bb-bdcd-596052983b63")
+	)
+	(wire
+		(pts
 			(xy 17.78 121.92) (xy 54.61 121.92)
 		)
 		(stroke
@@ -2866,6 +2792,16 @@
 			(type default)
 		)
 		(uuid "9eecdc2c-310f-49f2-a335-e0003be67279")
+	)
+	(wire
+		(pts
+			(xy 71.12 44.45) (xy 73.66 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15273db-edd7-4850-b71c-bf2173dced48")
 	)
 	(wire
 		(pts
@@ -2899,7 +2835,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 49.53) (xy 17.78 72.39)
+			(xy 17.78 46.99) (xy 17.78 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2926,16 +2862,6 @@
 			(type default)
 		)
 		(uuid "b6a19e4d-8042-4c11-b3cc-2a620b93eec1")
-	)
-	(wire
-		(pts
-			(xy 57.15 49.53) (xy 17.78 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7a0304b-274f-4828-84d7-c0fcb0ad3613")
 	)
 	(wire
 		(pts
@@ -2966,6 +2892,16 @@
 			(type default)
 		)
 		(uuid "c4e126a9-9399-4a32-93ec-63bbec2873ba")
+	)
+	(wire
+		(pts
+			(xy 73.66 44.45) (xy 135.89 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0613b20-8fe7-4004-ab41-dc5c9c8d6bd8")
 	)
 	(wire
 		(pts
@@ -3036,16 +2972,6 @@
 			(type default)
 		)
 		(uuid "eee24465-c6cf-4528-9272-22063217083e")
-	)
-	(wire
-		(pts
-			(xy 93.98 53.34) (xy 135.89 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e0777a-4e58-4349-9562-f70d3990ed49")
 	)
 	(wire
 		(pts
@@ -3283,84 +3209,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 76.2 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b1ae74e-3e6d-4ecc-92bb-047041395920")
-		(property "Reference" "#PWR01"
-			(at 76.2 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 76.2 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 76.2 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a67116f-f3a3-4cef-959a-68d42f296f8e")
-		)
-		(instances
-			(project "korryButton"
-				(path "/bfc9e741-6c13-4327-93fc-8e179bada6f9"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 104.14 139.7 0)
 		(unit 1)
@@ -3432,6 +3280,84 @@
 			(project "korryButton"
 				(path "/bfc9e741-6c13-4327-93fc-8e179bada6f9"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 78.74 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e8835c7-eca7-422f-938c-7db65b0fb8c3")
+		(property "Reference" "#PWR017"
+			(at 78.74 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 78.74 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 78.74 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9dc76c4-3bdd-4df5-aeb9-a69c55d313b9")
+		)
+		(instances
+			(project "korryButton"
+				(path "/bfc9e741-6c13-4327-93fc-8e179bada6f9"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3517,6 +3443,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 76.2 49.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "282f6c6d-78fb-45f5-ac84-76cb1dfe30bf")
+		(property "Reference" "#PWR018"
+			(at 76.2 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82a66904-6572-4bea-b1da-07c658c2b22b")
+		)
+		(instances
+			(project "korryButton"
+				(path "/bfc9e741-6c13-4327-93fc-8e179bada6f9"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:RC0603FR-0710KL")
 		(at 62.23 109.22 0)
 		(unit 1)
@@ -3538,7 +3542,7 @@
 			)
 		)
 		(property "Value" "RC0603FR-0710KL"
-			(at 62.23 107.442 0)
+			(at 66.802 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3612,83 +3616,6 @@
 			(project "korryButton"
 				(path "/bfc9e741-6c13-4327-93fc-8e179bada6f9"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 54.61 52.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4178e1ce-ec0c-4b6d-bc3b-9b19ef2db93c")
-		(property "Reference" "#PWR018"
-			(at 54.61 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.356 49.022 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "423d3e12-6273-44bc-9471-0e7c67ad882d")
-		)
-		(instances
-			(project "korryButton"
-				(path "/bfc9e741-6c13-4327-93fc-8e179bada6f9"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4609,7 +4536,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 53.34 180)
+		(at 46.99 59.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4617,9 +4544,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "97122774-58b8-4dfd-bf12-29e10773926c")
-		(property "Reference" "#PWR017"
-			(at 91.44 46.99 0)
+		(uuid "a80dcaf0-bb20-4c91-8d46-f18b933d912e")
+		(property "Reference" "#PWR019"
+			(at 46.99 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4630,7 +4557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.186 50.292 0)
+			(at 46.736 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4640,7 +4567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 53.34 0)
+			(at 46.99 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4651,7 +4578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 53.34 0)
+			(at 46.99 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4662,7 +4589,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 53.34 0)
+			(at 46.99 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4673,119 +4600,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e72d4b6c-56ee-4316-9c64-901446accad4")
+			(uuid "55b97d24-e52d-48ed-ab0e-51fbab2a8e25")
 		)
 		(instances
 			(project "korryButton"
 				(path "/bfc9e741-6c13-4327-93fc-8e179bada6f9"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:B3B-XH-A(LF)(SN)")
-		(at 73.66 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7c04b87-1abf-4fa5-a335-839a835bdb76")
-		(property "Reference" "U2"
-			(at 80.01 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B3B-XH-A(LF)(SN)"
-			(at 80.01 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C144394_CONN-TH_3P-P2_50_A2501WV2-3P"
-			(at 73.66 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B3B-XH-A-LF-SN_C144394.pdf"
-			(at 71.374 74.803 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "B3B-XH-A(LF)(SN)"
-			(at 73.66 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C144394"
-			(at 73.66 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 73.66 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "baa7156c-2bfc-4bd5-826f-f6bf196b0f5c")
-		)
-		(pin "1"
-			(uuid "447380c6-3486-477e-bfa1-410223e0a6e1")
-		)
-		(pin "3"
-			(uuid "58a101c3-c29a-40b1-ae89-46c447a7fa95")
-		)
-		(instances
-			(project "korryButton"
-				(path "/bfc9e741-6c13-4327-93fc-8e179bada6f9"
-					(reference "U2")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5543,6 +5363,107 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:100nF_(104)_±10%_50V")
+		(at 46.99 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d25c9bb8-f933-4604-976d-7d6109694b90")
+		(property "Reference" "C4"
+			(at 53.34 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF (104) ±10% 50V"
+			(at 56.388 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C1591_C0603"
+			(at 36.83 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+			(at 47.117 62.484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF (104) ±10% 50V"
+			(at 46.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 46.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 46.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f950f63-22cf-49a9-86c5-cacee7efe73a")
+		)
+		(pin "2"
+			(uuid "f1801eef-9518-49ca-98ef-39a462a7a0ed")
+		)
+		(instances
+			(project "korryButton"
+				(path "/bfc9e741-6c13-4327-93fc-8e179bada6f9"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 81.28 90)
 		(unit 1)
@@ -5622,83 +5543,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 73.66 67.31 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e16e80fa-4041-4139-a456-ef73c1e95fc3")
-		(property "Reference" "#PWR02"
-			(at 73.66 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.406 64.262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9620f408-9149-4589-aba6-881c96b94dc6")
-		)
-		(instances
-			(project "korryButton"
-				(path "/bfc9e741-6c13-4327-93fc-8e179bada6f9"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 40.64 149.86 0)
 		(unit 1)
@@ -5771,110 +5615,6 @@
 			(project "korryButton"
 				(path "/bfc9e741-6c13-4327-93fc-8e179bada6f9"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:B2B-XH-A_(LF)(SN)")
-		(at 92.71 59.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eaf96665-9555-4c29-b437-3243b519a76d")
-		(property "Reference" "CN2"
-			(at 97.79 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B-XH-A (LF)(SN)"
-			(at 97.79 62.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C158012_CONN-TH_B2B-XH-A-LF-SN"
-			(at 82.55 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B2B-XH-A-LF-SN_C158012.pdf"
-			(at 92.837 57.404 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "B2B-XH-A (LF)(SN)"
-			(at 92.71 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C158012"
-			(at 92.71 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 92.71 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "85acca74-3663-49f5-8e33-e10f19ea5f80")
-		)
-		(pin "1"
-			(uuid "3bb56491-ee16-4828-83b7-f8b61eaed5fe")
-		)
-		(instances
-			(project "korryButton"
-				(path "/bfc9e741-6c13-4327-93fc-8e179bada6f9"
-					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -6000,8 +5740,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:B2B-XH-A_(LF)(SN)")
-		(at 55.88 58.42 270)
+		(lib_id "lcsc_imported:B5B-XH-A_(LF)(SN)")
+		(at 73.66 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6009,10 +5749,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffb1c00b-6c6f-408b-b440-4a89c92190bc")
+		(uuid "f61b4a90-3f96-42d5-aad6-b8b368021d3f")
 		(property "Reference" "CN1"
-			(at 60.96 58.4199 90)
+			(at 73.66 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6022,8 +5761,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B2B-XH-A (LF)(SN)"
-			(at 60.96 60.9599 90)
+		(property "Value" "B5B-XH-A (LF)(SN)"
+			(at 82.55 58.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6033,8 +5772,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C158012_CONN-TH_B2B-XH-A-LF-SN"
-			(at 45.72 58.42 0)
+		(property "Footprint" "lcsc_footprints:C157991_CONN-TH_B5B-XH-A-LF-SN"
+			(at 63.5 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6044,8 +5783,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B2B-XH-A-LF-SN_C158012.pdf"
-			(at 56.007 56.134 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B5B-XH-A-LF-SN_C157991.pdf"
+			(at 73.787 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6055,8 +5794,8 @@
 				)
 			)
 		)
-		(property "Description" "B2B-XH-A (LF)(SN)"
-			(at 55.88 58.42 0)
+		(property "Description" "B5B-XH-A (LF)(SN)"
+			(at 73.66 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6066,8 +5805,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C158012"
-			(at 55.88 58.42 0)
+		(property "LCSC" "C157991"
+			(at 73.66 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6078,7 +5817,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 55.88 58.42 0)
+			(at 73.66 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6088,11 +5827,20 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "361adfb1-c3b1-4129-91d0-aaaf89865169")
+		(pin "3"
+			(uuid "2c8f3d55-7cbd-42e7-a6e0-5141c702178e")
 		)
 		(pin "1"
-			(uuid "cf98737c-57e1-4385-8243-02875379116a")
+			(uuid "dd1b4275-9d39-464a-aec2-496cbc35c787")
+		)
+		(pin "5"
+			(uuid "cb8397d3-9392-4c77-af56-82f2cd3bbecb")
+		)
+		(pin "4"
+			(uuid "54b0b4e6-c04c-4c31-9d3a-e3903fa54fb5")
+		)
+		(pin "2"
+			(uuid "064845ca-bf87-446e-9a18-77c7f9955d70")
 		)
 		(instances
 			(project "korryButton"
