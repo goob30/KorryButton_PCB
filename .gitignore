@@ -46,3 +46,4 @@ fp-info-cache
 _restore_backup_*/
 _restore_*/
 korryButton.kicad_prl
+*.lck

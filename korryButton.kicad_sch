@@ -6573,10 +6573,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "f61b4a90-3f96-42d5-aad6-b8b368021d3f")
 		(property "Reference" "CN1"
 			(at 73.66 58.42 90)
